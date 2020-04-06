@@ -1,0 +1,19 @@
+{
+    "name": "coolwanglu/pdf2htmlEX",
+    "description": "convertor pdf to html",
+    "keywords": ["html", "pdf", "convertor"],
+    "homepage": "https://github.com/coolwanglu/pdf2htmlEX",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.1",
+        "ext-simplexml": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Coolwanglu\\pdf2htmlEX\\": "src/"
+        }
+    }
+}
